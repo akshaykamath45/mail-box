@@ -1,0 +1,24 @@
+.mail-card {
+  border: 1px solid lightgrey;
+  padding-left: 1rem;
+  border-radius: 4px;
+}
+.filter-div {
+  border: 1px solid black;
+  padding: 2px;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 370px;
+}
+
+.mail-card-header {
+  display: flex;
+  justify-content: space-between;
+}
