@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Mini Email App in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Mini Email App in React! This is a simple email application that allows you to manage your emails within different folders, perform various actions on them, and navigate through the app using React Router.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Folders**: Inbox, Spam, and Trash folders for organizing your emails.
+- **Routing**: Use React Router to navigate seamlessly between different folders.
+- **Context**: Utilize the MailProvider context to manage mail data and state.
+- **useReducer**: Perform operations on the email app using the useReducer hook.
+- **Filters**: Filter emails to show unread emails and starred emails.
+- **Star and Unstar**: Mark emails as starred or unstarred.
+- **Delete**: Delete emails, sending them to the Trash folder.
+- **Mark as Read**: Mark emails as read, decreasing the Unread counter.
+- **Report Spam**: Report emails as spam, moving them to the Spam folder.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://github.com/akshaykamath45/mail-box/assets/73344382/91f40ddd-058f-4198-a013-fa0ec1d31e55)
+![image](https://github.com/akshaykamath45/mail-box/assets/73344382/25f3da16-b132-4571-aba7-00b2b7950587)
 
-### `npm test`
+![image](https://github.com/akshaykamath45/mail-box/assets/73344382/665f794e-5ab3-4c76-a178-1fe42494b2d6)
+![image](https://github.com/akshaykamath45/mail-box/assets/73344382/9d78de89-259a-4f6c-ba5f-55b3eafc669f)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
